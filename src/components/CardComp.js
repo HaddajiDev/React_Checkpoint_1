@@ -1,16 +1,21 @@
 import React from 'react'
 import Products from '../product'
-
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 function CardComp(value) {
   return (
 	<div className='parent'>
 		<div className='Container'>		
-			<img src={Products[value.name].img_path} alt='img' className='img_'/>
-			<h1>{Products[value.name].name}</h1>
-			<h4>{Products[value.name].descrption}</h4>
-			<h2>{Products[value.name].price}$</h2>
+			<Card style={{ width: '18rem' }}>
+      			<Card.Img variant="top" src={Products[value.name].img_path} />
+      			<Card.Body>
+        			<Card.Title>{Products[value.name].name}</Card.Title>
+        			<Card.Text>{Products[value.name].descrption}</Card.Text>       			        
+        			<Button variant="primary">Buy Now</Button>
+      			</Card.Body>
+    		</Card>
 		</div>
 	</div>
 	

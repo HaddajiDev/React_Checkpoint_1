@@ -1,15 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import CardComp from './components/CardComp';
 
 import './style.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div>
-      <div className='title_con'>
-        <h1 className='title_s'>Animal store</h1>
-      </div>
-      
+    <div>     
+      <NavBar />
       <div className='comp_conatainer'>
         <CardComp name='0' />
         <CardComp name='1' />
