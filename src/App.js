@@ -6,11 +6,12 @@ import './style.css';
 import NavBar from './components/NavBar';
 
 function App() {
+  const name="ahmed";
   return (
     <div>     
       <NavBar />
       <div className='comp_conatainer'>
-        <CardComp name='0' />
+        <CardComp name='0'  nom={name}/>
         <CardComp name='1' />
         <CardComp name='2' />
         <CardComp name='3' />

@@ -40,7 +40,7 @@ const product_5 = new Product("Spider",
 const product_6 = new Product("Bear",
 	6523,
 	"the stuff that you don't want to play with",
-	"https://th.bing.com/th/id/R.26c9abcff82b0303bd13b0b4bf64e786?rik=5rk8wlEXorvMPA&pid=ImgRaw&r=0"
+	"https://i.pinimg.com/736x/11/90/71/1190711ddede57a216a82d753144f740.jpg"
 );
 
 const Products = [product, product_2, product_3, product_4, product_5, product_6];

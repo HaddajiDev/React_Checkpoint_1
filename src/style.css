@@ -1,3 +1,8 @@
+
+body{
+	background-color: beige;
+}
+
 .Container{	
 	
 	display: flex;	
@@ -23,33 +28,23 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	gap: 30px;
+	margin-bottom: 50px;
+
+
 }
 
-.title_s { 
-    width: 100%; 
-    color: coral;
-    height: 100%;
-    text-align: center; 
-    
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-	
+
+.bg-body-tertiary{
+	background-color: bisque !important;
+	height: 80px !important;
+	margin-bottom: 50px !important;
+	z-index: 1;
 }
 
-.title_s h1 {
-    margin-bottom: 50px;
-}
-
-.title_con{
-	
-	height: 100px;
-	background-color: bisque;
-	margin-bottom: 50px;	
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+.brand{
+	font-size: 35px;
+	color:tomato;
+	font-weight: 700;
 }
 
 .title_con ul{	
